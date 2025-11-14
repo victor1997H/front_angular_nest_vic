@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <h1>{{ titulo }}</h1>
     <p>
       nosotros works!
     </p>
@@ -13,5 +12,6 @@ import { Component } from '@angular/core';
   styles: ``
 })
 export class NosotrosComponent {
-  public titulo: string = "acerca de nosotros";
+  public titulo: string = "Acerca de nosotros"
+
 }
